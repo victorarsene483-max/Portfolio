@@ -200,17 +200,29 @@ img{
         text-align: center;
     }
 
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+
     .nav-links {
-        gap: 10px;
         flex-wrap: wrap;
         justify-content: center;
         margin-left: 0;
+        width: 100%;
+        gap: 10px;
     }
 
-    nav {
-        flex-direction: column;
-        padding: 15px;
-        text-align: center;
+    .nav-links li {
+        margin-left: 0;
+    }
+
+    .nav-links a {
+        margin: 0 8px;
+        font-size: 14px;
+        white-space: nowrap;
     }
 
     .img-wrapper {
@@ -247,5 +259,10 @@ img{
     img {
         width: 160px;
         height: 220px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+        margin: 0 5px;
     }
 }
