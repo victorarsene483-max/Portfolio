@@ -239,7 +239,6 @@ img{
     animation: none;
     color: red;
 }
-
 @media(max-width: 768px){
     .hamburger{
         display: block;
@@ -279,14 +278,20 @@ img{
         text-align: center;
     }
 
+    h1{
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
     .neon{
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: 10px 0 0;
     }
 
     h3{
         margin-left: 0;
         padding: 0 10px;
+        font-size: large;
     }
 
     p{
